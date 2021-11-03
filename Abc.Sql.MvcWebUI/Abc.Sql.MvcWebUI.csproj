@@ -1,0 +1,839 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="node_modules\bootstrap\css\bootstrap-grid.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-grid.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-grid.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-grid.min.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-grid.rtl.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-grid.rtl.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-grid.rtl.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-grid.rtl.min.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-reboot.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-reboot.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-reboot.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-reboot.min.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-reboot.rtl.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-reboot.rtl.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-reboot.rtl.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-reboot.rtl.min.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-utilities.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-utilities.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-utilities.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-utilities.min.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-utilities.rtl.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-utilities.rtl.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-utilities.rtl.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap-utilities.rtl.min.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap.min.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap.rtl.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap.rtl.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap.rtl.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\css\bootstrap.rtl.min.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap-grid.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap-grid.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap-grid.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap-grid.min.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap-reboot.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap-reboot.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap-reboot.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap-reboot.min.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap.min.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\js\bootstrap.bundle.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\js\bootstrap.bundle.js.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\js\bootstrap.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\js\bootstrap.js.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\js\bootstrap.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\dist\js\bootstrap.min.js.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\bootstrap.bundle.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\bootstrap.bundle.js.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\bootstrap.bundle.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\bootstrap.bundle.min.js.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\bootstrap.esm.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\bootstrap.esm.js.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\bootstrap.esm.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\bootstrap.esm.min.js.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\bootstrap.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\bootstrap.js.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\bootstrap.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\bootstrap.min.js.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\LICENSE">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\bootstrap-grid.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\bootstrap-reboot.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\bootstrap-utilities.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\bootstrap.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\forms\_floating-labels.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\forms\_form-check.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\forms\_form-control.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\forms\_form-range.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\forms\_form-select.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\forms\_form-text.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\forms\_input-group.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\forms\_labels.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\forms\_validation.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\helpers\_clearfix.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\helpers\_colored-links.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\helpers\_position.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\helpers\_ratio.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\helpers\_stacks.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\helpers\_stretched-link.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\helpers\_text-truncation.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\helpers\_visually-hidden.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\helpers\_vr.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_alert.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_backdrop.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_border-radius.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_box-shadow.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_breakpoints.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_buttons.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_caret.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_clearfix.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_color-scheme.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_container.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_deprecate.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_forms.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_gradients.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_grid.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_image.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_list-group.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_lists.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_pagination.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_reset-text.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_resize.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_table-variants.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_text-truncate.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_transition.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_utilities.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\mixins\_visually-hidden.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\utilities\_api.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\vendor\_rfs.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_accordion.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_alert.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_badge.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_breadcrumb.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_button-group.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_buttons.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_card.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_carousel.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_close.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_containers.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_dropdown.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_forms.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_functions.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_grid.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_helpers.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_images.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_list-group.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_mixins.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_modal.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_nav.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_navbar.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_offcanvas.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_pagination.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_placeholders.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_popover.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_progress.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_reboot.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_root.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_spinners.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_tables.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_toasts.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_tooltip.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_transitions.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_type.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_utilities.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\bootstrap\scss\_variables.scss">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery-validation-unobtrusive\LICENSE.txt">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery-validation\dist\additional-methods.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery-validation\dist\additional-methods.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery-validation\dist\jquery.validate.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery-validation\dist\jquery.validate.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery-validation\LICENSE.md">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery\dist\jquery.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery\dist\jquery.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery\dist\jquery.min.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery\jquery.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery\jquery.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery\jquery.min.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery\jquery.slim.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery\jquery.slim.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery\jquery.slim.min.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\jquery\LICENSE.txt">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-grid.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-grid.rtl.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-reboot.rtl.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-utilities.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-utilities.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-utilities.min.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-utilities.min.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-utilities.rtl.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap.min.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap.rtl.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap.rtl.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap.rtl.min.css" />
+    <Content Include="node_modules\twitter-bootstrap\css\bootstrap.rtl.min.css.map" />
+    <Content Include="node_modules\twitter-bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="node_modules\twitter-bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="node_modules\twitter-bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="node_modules\twitter-bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="node_modules\twitter-bootstrap\js\bootstrap.esm.js" />
+    <Content Include="node_modules\twitter-bootstrap\js\bootstrap.esm.js.map" />
+    <Content Include="node_modules\twitter-bootstrap\js\bootstrap.esm.min.js" />
+    <Content Include="node_modules\twitter-bootstrap\js\bootstrap.esm.min.js.map" />
+    <Content Include="node_modules\twitter-bootstrap\js\bootstrap.js" />
+    <Content Include="node_modules\twitter-bootstrap\js\bootstrap.js.map" />
+    <Content Include="node_modules\twitter-bootstrap\js\bootstrap.min.js" />
+    <Content Include="node_modules\twitter-bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="node_modules\twitter-bootstrap\scss\bootstrap-grid.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\bootstrap-reboot.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\bootstrap-utilities.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\bootstrap.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\forms\_floating-labels.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\forms\_form-check.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\forms\_form-control.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\forms\_form-range.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\forms\_form-select.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\forms\_form-text.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\forms\_input-group.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\forms\_labels.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\forms\_validation.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\helpers\_clearfix.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\helpers\_colored-links.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\helpers\_position.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\helpers\_ratio.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\helpers\_stacks.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\helpers\_stretched-link.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\helpers\_text-truncation.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\helpers\_visually-hidden.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\helpers\_vr.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_alert.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_backdrop.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_border-radius.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_box-shadow.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_breakpoints.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_buttons.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_caret.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_clearfix.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_color-scheme.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_container.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_deprecate.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_forms.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_gradients.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_grid.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_image.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_list-group.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_lists.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_pagination.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_reset-text.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_resize.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_table-variants.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_text-truncate.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_transition.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_utilities.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\mixins\_visually-hidden.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\utilities\_api.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\vendor\_rfs.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_accordion.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_alert.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_badge.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_breadcrumb.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_button-group.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_buttons.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_card.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_carousel.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_close.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_containers.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_dropdown.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_forms.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_functions.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_grid.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_helpers.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_images.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_list-group.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_mixins.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_modal.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_nav.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_navbar.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_offcanvas.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_pagination.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_placeholders.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_popover.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_progress.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_reboot.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_root.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_spinners.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_tables.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_toasts.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_tooltip.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_transitions.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_type.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_utilities.scss" />
+    <Content Include="node_modules\twitter-bootstrap\scss\_variables.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.1.0" />
+    <PackageReference Include="jQuery" Version="3.6.0" />
+    <PackageReference Include="jQuery.Validation" Version="1.19.3" />
+    <PackageReference Include="jQuery.Validation.Unobtrusive" Version="2.0.20710" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.jQuery.Unobtrusive.Validation" Version="3.2.12" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Twitter.Bootstrap" Version="3.0.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abc.Core\Abc.Core.csproj" />
+    <ProjectReference Include="..\Abc.Sql.Business\Abc.Sql.Business.csproj" />
+    <ProjectReference Include="..\Abc.Sql.Entities\Abc.Sql.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

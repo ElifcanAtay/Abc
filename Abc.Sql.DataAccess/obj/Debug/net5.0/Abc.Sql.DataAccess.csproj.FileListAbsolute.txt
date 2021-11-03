@@ -1,0 +1,17 @@
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\bin\Debug\net5.0\Abc.Sql.DataAccess.deps.json
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\bin\Debug\net5.0\Abc.Sql.DataAccess.dll
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\bin\Debug\net5.0\ref\Abc.Sql.DataAccess.dll
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\bin\Debug\net5.0\Abc.Sql.DataAccess.pdb
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\bin\Debug\net5.0\Abc.Core.dll
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\bin\Debug\net5.0\Abc.Sql.Entities.dll
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\bin\Debug\net5.0\Abc.Core.pdb
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\bin\Debug\net5.0\Abc.Sql.Entities.pdb
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\obj\Debug\net5.0\Abc.Sql.DataAccess.csproj.AssemblyReference.cache
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\obj\Debug\net5.0\Abc.Sql.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\obj\Debug\net5.0\Abc.Sql.DataAccess.AssemblyInfoInputs.cache
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\obj\Debug\net5.0\Abc.Sql.DataAccess.AssemblyInfo.cs
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\obj\Debug\net5.0\Abc.Sql.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\obj\Debug\net5.0\Abc.Sql.DataAccess.csproj.CopyComplete
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\obj\Debug\net5.0\Abc.Sql.DataAccess.dll
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\obj\Debug\net5.0\ref\Abc.Sql.DataAccess.dll
+C:\Users\elifc\source\repos\Abc\Abc.Sql.DataAccess\obj\Debug\net5.0\Abc.Sql.DataAccess.pdb

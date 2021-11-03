@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abc.Core\Abc.Core.csproj" />
+    <ProjectReference Include="..\Abc.Sql.DataAccess\Abc.Sql.DataAccess.csproj" />
+    <ProjectReference Include="..\Abc.Sql.Entities\Abc.Sql.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
